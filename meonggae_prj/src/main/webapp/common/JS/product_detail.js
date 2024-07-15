@@ -54,13 +54,13 @@ jQuery(document).ready(function($) {
 	//판매자 프로필 클릭
 	$(".store-btn").click(function(){
 		var sellerNick = $(this).text().trim();
-		location.href='http://localhost/meonggae_prj/My/store/store_frm.do?nick='+sellerNick;
+		location.href='http://stu8.sist.co.kr/meonggae_prj/My/store/store_frm.do?nick='+sellerNick;
 	});//store-btn.click
 	
 	//리뷰작성자 프로필 클릭
 	$(".buyer-btn").click(function(){
 		var buyerNick = $(this).text().trim();
-		location.href='http://localhost/meonggae_prj/My/store/store_frm.do?nick='+buyerNick;
+		location.href='http://stu8.sist.co.kr/meonggae_prj/My/store/store_frm.do?nick='+buyerNick;
 	});//buyer-btn.click
 	
 	
@@ -73,14 +73,14 @@ jQuery(document).ready(function($) {
 function selectedParent(){
 	//선택된 부모 카테고리 가져오기
 	var selParent = $("#proCate-parent").val();
-	location.href="http://localhost/meonggae_prj/main_page/search_contents.do?cn="+selParent+"&isP=T"
+	location.href="http://stu8.sist.co.kr/meonggae_prj/main_page/search_contents.do?cn="+selParent+"&isP=T"
 }//selectedParent
 
 //select 카테고리로 검색 - 자식
 function selectedSub(){
 	//선택된 자식 카테고리 가져오기
 	var selSub = $("#proCate-child").val();
-	location.href="http://localhost/meonggae_prj/main_page/search_contents.do?cn="+selSub+"&isP=F"
+	location.href="http://stu8.sist.co.kr/meonggae_prj/main_page/search_contents.do?cn="+selSub+"&isP=F"
 }//selectedSub
 
 //로그인했는지 확인
@@ -113,7 +113,7 @@ function insertSteam(){
 	var goodsNum = $('input[name="goodsNum"]').val();
 	$.ajax({
 		type:'GET',
-		url:'http://localhost/meonggae_prj/insertSteam.do',
+		url:'http://stu8.sist.co.kr/meonggae_prj/insertSteam.do',
 		dataType:"text",
 		data:{goodsNum:goodsNum, memNum:memNum},
 		error: function(xhr){
@@ -133,7 +133,7 @@ function updateSteamToN(){
 	var goodsNum = $('input[name="goodsNum"]').val();
 	$.ajax({
 		type:'GET',
-		url:'http://localhost/meonggae_prj/updateSteam.do',
+		url:'http://stu8.sist.co.kr/meonggae_prj/updateSteam.do',
 		dataType:"text",
 		data:{goodsNum:goodsNum, memNum:memNum},
 		error: function(xhr){

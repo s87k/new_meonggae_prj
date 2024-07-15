@@ -69,7 +69,7 @@
 				period: $("#cateTopSel").val()
 		}
 		$.ajax({
-			url: "http://localhost${pageContext.request.contextPath}/mgr/dashboard/top_category.do",
+			url: "http://stu8.sist.co.kr${pageContext.request.contextPath}/mgr/dashboard/top_category.do",
 			type: "GET",
 			data: param,
 			dataType: "JSON",
@@ -91,7 +91,7 @@
 				period: $("#userSummarySel").val()
 		}
 		$.ajax({
-			url: "http://localhost${pageContext.request.contextPath}/mgr/dashboard/user_summary.do",
+			url: "http://stu8.sist.co.kr${pageContext.request.contextPath}/mgr/dashboard/user_summary.do",
 			type: "GET",
 			data: param,
 			dataType: "JSON",
@@ -113,7 +113,7 @@
 				type: $("#eventViewSel").val()
 		}
 		$.ajax({
-			url: "http://localhost${pageContext.request.contextPath}/mgr/dashboard/event_view.do",
+			url: "http://stu8.sist.co.kr${pageContext.request.contextPath}/mgr/dashboard/event_view.do",
 			type: "GET",
 			data: param,
 			dataType: "JSON",
@@ -131,7 +131,7 @@
 	// 신고 현황 - ajax 
 	function callAjaxReportRecent() {
 		$.ajax({
-			url: "http://localhost${pageContext.request.contextPath}/mgr/dashboard/report_recent.do",
+			url: "http://stu8.sist.co.kr${pageContext.request.contextPath}/mgr/dashboard/report_recent.do",
 			type: "GET",
 			dataType: "JSON",
 			error: function(xhr) {
@@ -153,7 +153,7 @@
 				visitorSel: $("#visitorSel").val()
 		}
 		$.ajax({
-			url: "http://localhost${pageContext.request.contextPath}/mgr/dashboard/visitor_statistics.do",
+			url: "http://stu8.sist.co.kr${pageContext.request.contextPath}/mgr/dashboard/visitor_statistics.do",
 			type: "GET",
 			dataType: "JSON",
 			data: param,

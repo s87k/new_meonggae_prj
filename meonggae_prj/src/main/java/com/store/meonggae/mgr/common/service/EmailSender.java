@@ -21,7 +21,7 @@ import com.store.meonggae.mgr.common.vo.EmailVO;
  * @author kds
  * 이미지를 메일로 전송하는 경우, 
  * 이미지 데이터를 base64로 전송하면 src가 사라짐 
- * localhost같은 게 붙으면 src에 이상한 값이 붙어서 엑박 뜸
+ * 로컬호스트같은 게 붙으면 src에 이상한 값이 붙어서 엑박 뜸
  */
 @Service
 public class EmailSender {

@@ -53,7 +53,7 @@ $(function() {
                             <div class="single-product prevent-overflow">
                                 <div class="product-block">
                                     <a href="main_page/products_detail.do?goodsNum=${pd.goodsNum}">
-                                        <img src="http://localhost/meonggae_prj/products-img/${pd.imgName}" alt="" class="thumbnail">
+                                        <img src="http://stu8.sist.co.kr/meonggae_prj/products-img/${pd.imgName}" alt="" class="thumbnail">
                                         <div class="product-description">
                                             <p class="title">${pd.goodsName}</p>
                                             <div style="overflow: hidden;">

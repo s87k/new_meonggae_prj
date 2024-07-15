@@ -22,7 +22,7 @@ $(function() {
 	});//click
 		
 	$("#btnAllSearch").click(function(){
-		location.href="http://localhost/meonggae_prj/event_page/event_main.do?currentPage=1";
+		location.href="http://stu8.sist.co.kr/meonggae_prj/event_page/event_main.do?currentPage=1";
 	});//click
 		
 	$("#keyword").keydown(function( evt ){
@@ -41,7 +41,7 @@ function chkNull(){
 		if(currentPage == "" || currentPage == 0){
 		 currentPage = 1;
 		}
-		location.href="http://localhost/meonggae_prj/event_page/event_main.do?currentPage="+currentPage+"&event-type="+eventType+"&field="+field+"&keyword="+keyword;
+		location.href="http://stu8.sist.co.kr/meonggae_prj/event_page/event_main.do?currentPage="+currentPage+"&event-type="+eventType+"&field="+field+"&keyword="+keyword;
 		
 		
 	}//end if

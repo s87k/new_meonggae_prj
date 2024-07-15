@@ -36,13 +36,13 @@
 <jsp:include page="../main_page/script.jsp" />
 <script src="../common/JS/eventJS.js"></script>
  <link rel="stylesheet"
-	href="http://localhost/meonggae_prj/common/CSS/style.css"> 
+	href="http://stu8.sist.co.kr/meonggae_prj/common/CSS/style.css"> 
 <link rel="stylesheet"
-	href="http://localhost/meonggae_prj/common/CSS/event_style.css">
+	href="http://stu8.sist.co.kr/meonggae_prj/common/CSS/event_style.css">
 <link rel="stylesheet"
-	href="http://localhost/meonggae_prj/common/CSS/responsive.css">
+	href="http://stu8.sist.co.kr/meonggae_prj/common/CSS/responsive.css">
 <link rel="stylesheet"
-	href="http://localhost/meonggae_prj/common/CSS/meongae_talk.css">
+	href="http://stu8.sist.co.kr/meonggae_prj/common/CSS/meongae_talk.css">
 </head>
 <body>
 	<!-- header 시작 -->

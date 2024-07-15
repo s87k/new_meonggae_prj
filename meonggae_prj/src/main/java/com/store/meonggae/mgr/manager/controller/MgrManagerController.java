@@ -124,7 +124,7 @@ public class MgrManagerController {
 	@PostMapping("/mgr/manager/mgr_manager_add_process.do")
 	public String addManagerProcess(MgrManagerVO mMgrVO, RedirectAttributes redirectAttributes, HttpServletRequest request) {
 		
-		// serverName에 localhost같은 게 들어올 경우 구글이 막음
+		// serverName에 로컬호스트같은 게 들어올 경우 구글이 막음
 //		String serverName = request.getServerName();
 		String serverName = "211.63.89.136";
 		String contextPath = request.getContextPath();
